@@ -1,0 +1,8 @@
+[Rr]elease/
+[Rr]eleases/
+
+*.netkan
+/release_token.json
+__pycache__
+Screenshots_local/
+Other/
