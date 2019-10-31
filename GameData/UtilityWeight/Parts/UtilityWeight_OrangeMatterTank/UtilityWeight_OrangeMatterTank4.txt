@@ -1,0 +1,65 @@
+PART
+{
+	name = UtilityWeight_OrangeMatterTank4
+	module = Part
+	author = UbioZurWeldingLtd
+	rescaleFactor = 1
+	PhysicsSignificance = -1
+	node_stack_top = 0, 0.625, 0, 0, 1, 0, 1
+	node_stack_bottom = 0, -0.625, 0, 0, -1, 0, 1
+	node_attach = 0, -0.129, 0, 0, -1, 0, 0
+	CrewCapacity = 0
+	TechRequired = precisionEngineering
+	entryCost = 9800
+	cost = 16
+	category = Utility
+	subcategory = 0
+	title = OrangeMatterTank2
+	manufacturer = UbioZur Welding Ltd
+	description = Warranty void during re-entry.
+	attachRules = 1,1,1,1,0,0,0
+	mass = 0
+	dragModelType = default
+	maximum_drag = 0.240999997
+	minimum_drag = 0.194000006
+	angularDrag = 1.46899998
+	crashTolerance = 7
+	breakingForce = 22
+	breakingTorque = 22
+	maxTemp = 2000
+	fuelCrossFeed = True
+	explosionPotential = 0.5
+	thermalMassModifier = 1
+	heatConductivity = 0.12
+	emissiveConstant = 0.40000000000000002
+	radiatorHeadroom = 0.25
+	bulkheadProfiles = size0
+
+	MODEL
+	{
+		model = UtilityWeight/Parts/UtilityWeight_OrangeMatterTank/hmXenonTank
+		position = -0.316, 0.001, 0
+		scale = 1.25, 1.25, 1.25
+		rotation = 0, 270, 0
+	}
+	MODEL
+	{
+		model = UtilityWeight/Parts/UtilityWeight_OrangeMatterTank/hmXenonTank
+		position = 0, 0, 0.317
+		scale = 1.25, 1.25, 1.25
+	}
+	MODEL
+	{
+		model = UtilityWeight/Parts/UtilityWeight_OrangeMatterTank/hmXenonTank
+		position = 0.317, 0.001, 0
+		scale = 1.25, 1.25, 1.25
+		rotation = 0, 90, 0
+	}
+	MODEL
+	{
+		model = UtilityWeight/Parts/UtilityWeight_OrangeMatterTank/hmXenonTank
+		position = 0.001, 0, -0.316
+		scale = 1.25, 1.25, 1.25
+		rotation = 0, 180, 0
+	}
+}

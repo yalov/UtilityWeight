@@ -2,7 +2,7 @@
 
 PART
 {
-	name = OrangeMatterTank
+	name = UtilityWeight_OrangeMatterTank
 	module = Part
 	author = Nuke
 	
