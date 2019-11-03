@@ -10,7 +10,9 @@
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/-*"
     },
-
+	"recommends": [
+        { "name": "B9PartSwitch" }
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]
