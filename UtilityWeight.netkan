@@ -8,9 +8,9 @@
     "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",
     "resources" : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189536-*"
     },
-	"recommends": [
+    "recommends": [
         { "name": "B9PartSwitch" }
     ],
     "depends": [
