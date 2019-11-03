@@ -1,6 +1,6 @@
 {
 	"MODNAME": "auto",
-	"MODFOLDER": "UtilityTestWeight",
+	"MODFOLDER": "auto",
 	"VERSIONFILE": "auto",
 	"RELEASESDIR": "Releases",
 	"CHANGELOG": "ChangeLog.md",
