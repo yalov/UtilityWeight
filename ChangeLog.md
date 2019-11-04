@@ -1,5 +1,8 @@
 ChangeLog:
 
+## Version 0.9.2
+ * fixed Control
+
 ## Version 0.9.1
  * add Licence.txt 
  * add MM 4.1.1 
