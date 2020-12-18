@@ -1,5 +1,10 @@
 ChangeLog:
 
+## Version 1.2.0
+ * added B9PartSwitch Cost switcher
+ * added MechJeb2 support
+ * B9Switch doesn't affect DragCubes
+
 ## Version 1.1.0
  * fixed bug with nodes.
    If B9PartSwitch is installed, than it is used for the mass switching instead of the stock Variants.
