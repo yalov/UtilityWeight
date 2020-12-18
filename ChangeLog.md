@@ -2,7 +2,7 @@ ChangeLog:
 
 ## Version 1.2.0
  * added B9PartSwitch Cost switcher
- * added MechJeb2 in the patchHelpfulModules.cfg
+ * added MechJeb2 support
  * B9Switch doesn't affect DragCubes
 
 ## Version 1.1.0
