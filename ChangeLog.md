@@ -1,5 +1,8 @@
 ## ChangeLog:
 
+### Version 1.2.2
+ * colorize cost variants
+
 ### Version 1.2.1
  * fix B9PartSwitch description warning
 
