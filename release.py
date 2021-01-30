@@ -1,5 +1,5 @@
 """requirements: 
-Python3 
+Python3.9 
 pip install pyperclip GitPython PyGithub
 ./release_spacedock_utils.py
 make sure, that ssh is set up
@@ -7,7 +7,7 @@ make sure, that ssh is set up
 
 Public domain license.
 https://github.com/yalov/SpeedUnitAnnex/blob/master/release.py
-version: 16
+version: 17
 
 Script loads release-arhive to github and spacedock
 you need to set values in the release.json
@@ -39,9 +39,9 @@ def archive_to(file):
         os.remove(file)
 
     if os.path.exists("GameData"):
-        make_archive(file, 'zip', "GameData")
+        make_archive(file.removesuffix(".zip"), 'zip', "GameData")
     if os.path.exists("Extras"):
-        make_archive(file, 'zip', "Extras")
+        make_archive(file.removesuffix(".zip"), 'zip', "Extras")
 
     print("Size: {} byte"
           .format(os.path.getsize(file)))

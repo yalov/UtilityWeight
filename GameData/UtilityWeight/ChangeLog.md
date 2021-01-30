@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### Version 1.2.2
+ * remove negative costs
+ * added 0.01t-0.05t
+
 ### Version 1.2.1
  * fix B9PartSwitch description warning
 
