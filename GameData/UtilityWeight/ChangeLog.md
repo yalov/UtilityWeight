@@ -1,5 +1,8 @@
 ## ChangeLog:
 
+### Version 1.2.3
+ * added 1.875m and 3.75m variants
+
 ### Version 1.2.2
  * remove negative costs
  * added 0.01t-0.05t

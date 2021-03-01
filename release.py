@@ -198,6 +198,7 @@ if __name__ == '__main__':
     if FORUM_ID:
         import webbrowser
         webbrowser.open(f"https://forum.kerbalspaceprogram.com/index.php?/topic/{FORUM_ID}-*", new=2, autoraise=False)
+        print("The forum page is opened.")
 
     input("Press Enter to exit")
     sys.exit(0)
