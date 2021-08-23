@@ -1,5 +1,10 @@
 ## ChangeLog:
 
+### Version 1.2.4
+ * added 1000t−5000t (stock asteroid Type E) 
+ * added 10,000t−500,000t if JNSQ is installed 
+ * MM 4.2.1
+
 ### Version 1.2.3
  * added 1.875m and 3.75m variants
 
