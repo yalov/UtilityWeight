@@ -4,7 +4,7 @@
  * Using stock resource system (thanks to @JadeOfMaar)  
    choose number mode in the PAW and set any value from ranges:
     * kg: 1-1000
-    * tonne: 1-500000
+    * ton: 1-500000
  * mass b9switch is leaved for a compatibility and it's quicker to use it for the most round numbers.
     * default mass is 0t instead of 1t
     * mass lower than 1t is removed: use kg resource.
